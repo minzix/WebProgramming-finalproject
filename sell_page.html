@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>판매 도서 등록</title>
+        <link href="sell_page.css" rel = "stylesheet" type = "text/css"/>
+        <script src = "sell_page.js" type = "text/javascript"></script>
+        <meta charset = "UTF-8">
+
+    </head>
+    <body style = "background-color:#90d2e4">
+        <nav>
+            <div class="container">
+                <a href="firstpage.html"><img src="smallnunsong.png" class="left" alt="로고" width="90px" height="30px"></a>
+                <a href="login_page.html"><img class="right" src="login.png" width="60px" height="30px"></a>
+                <a href="signup_page.html"><img class="right" src="signup.png" width="90px" height="30px"></a>
+                <a href="sell_page.html"><img class="right" src="sell.png" width="90px" height="30px"></a>
+            </div>
+        </nav>
+        <br>
+        <div class="login-form">
+            <form >
+                도서제목 <input type="text" name="booktitle"><br>
+                전    공 
+                <select name = "subject" size = "1">
+                    <option value="ittec">IT기술의 이해</option>
+                    <option value="pyintro">프로그래밍입문 (Python)(필수)</option>
+                    <option value="itmath">IT수학</option>
+                    <option value="ccintro">기초프로그래밍 (C)(필수)</option>
+                    <option value="oopjava">객체지향프로그래밍 (Java)(필수)</option>
+                    <option value="webintro">웹프로그래밍기초(HTML5+JavaScript)(필수)</option>
+                    <option value="ds">데이터구조(필수)</option>
+                    <option value="devarch">IT기기구조</option>
+                    <option value="cpp">C++프로그래밍</option>
+                    <option value="mobile">모바일프로그래밍 (Android)</option>
+                    <option value="serverops">서버운영및보안</option>
+                    <option value="webapp">웹프로그래밍응용</option>
+                    <option value="db">데이터베이스</option>
+                    <option value="cg">컴퓨터그래픽프로그래밍</option>
+                    <option value="algo">알고리즘입문</option>
+                    <option value="video">영상처리및응용</option>
+                    <option value="uiux">UI/UX설계(캡스톤 디자인)</option>
+                    <option value="softeng">IT소프트웨어공학</option>
+                    <option value="vrar">가상및증강현실응용</option>
+                    <option value="network">네트워크</option>
+                    <option value="os">운영체제원리</option>
+                    <option value="sensor">센서프로그래밍</option>
+                    <option value="iot">IoT응용(캡스톤 디자인)</option>
+                    <option value="techtrends">IT기술및산업동향</option>
+                    <option value="datamining">데이터마이닝개론</option>
+                    <option value="smartservice">스마트서비스</option>
+                    <option value="ai">지능형소프트웨어</option>
+                    <option value="hci">HCI개론</option>
+                    <option value="dataanalysis">데이터분석및활용</option>
+                    <option value="cv">컴퓨터비전</option>
+                    <option value="cloud">클라우드컴퓨팅</option>
+                </select><br>
+                책 상 태 <input type = "radio" name = "quality" value = "최상"/> 최상
+                <input type = "radio" name = "quality" value = "상"/> 상
+                <input type = "radio" name = "quality" value = "중"/> 중 <br>
+                설    명 <textarea name = "comment" cols = "40" rows = "5">책의 상태에 대한 자세한 설명을 적어주세요</textarea><br>
+                연 락 처 <input type = "tel" placeholder="000-0000-0000" pattern = "[0-9]{3}-[0-9]{4}-[0-9]{4}"/><br>
+                구매연도 <input type="text" name="purchaseyear"><br>
+                출판연도 <input type="text" name="publishyear"><br>
+                출 판 사 <input type="text" name="publisher"><br>
+                저    자 <input type="text" name="author"><br>
+                정    가 <input type="text" name="listprice"><br>
+                판 매 가 <input type="text" name="price"><br>
+                <br>
+                <br>
+                <input type="submit" value="도서 등록">
+            </form>
+        </div>
+    </body>
+</html>

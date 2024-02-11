@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #90d2e4;
+    height: 30px;
+    overflow: hidden;
+    float: right;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #90d2e4;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: #90d2e4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.login-form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-form input[type="submit"] {
+    width: 100%;
+    padding: 10px; 
+    font-size: 15px; 
+}

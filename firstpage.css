@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px; 
+}
+
+.image {
+    margin-left: 10px;
+}
+
+.login {
+    width: 60px;
+    height: 30px;
+}
+
+.signup {
+    width: 90px;
+    height: 30px;
+}
+
+.sell {
+    width: 90px;
+    height: 30px;
+}
+
+.firstpage {
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: 10%;
+}
+
+
+#search-input {
+    flex-grow: 1;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    width: 80%;
+    border-radius: 25px;
+    margin-right: 10px;
+}

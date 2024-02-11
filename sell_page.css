@@ -1,0 +1,50 @@
+/*모든 페이지 상단에 위치하는 코드 START*/
+.container {
+    display: flex;
+    /*align-items: center;*/
+    justify-content: flex-end;
+    background-color: #90d2e4;
+    height: 30px;
+    overflow: hidden;
+    float: right;
+  }
+  
+  /*모든 페이지 상단에 위치하는 코드 END*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #90d2e4;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: #90d2e4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.login-form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-form input[type="submit"] {
+    width: 100%; /* 입력창과 동일한 너비로 설정 */
+    padding: 10px; /* 원하는 크기로 패딩 설정 */
+    font-size: 15px; /* 원하는 크기로 폰트 크기 설정 */
+}
+
+.preview-image {
+    display: inline-block;
+    margin-right: 10px;
+  }
